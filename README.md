@@ -32,6 +32,7 @@ node index.js remotex cubex //error
 - The use of streams. `createReadStream()` takes a file, it could be a very large file, and breaks it into smaller chunks. `parse()` method from `csv-parse` is the second stream, actually a transform stream.
 - The leverage of `process.argv` to capture user input and provide a dash of interactiveness.
 - The project applies SOLID principles. `S` (Single responsablity) for functions like `printMessage`, `square`, etc. `O` (Open Closed Principle) `cube` transformer function was added and others can easily be added in the index.js file.
+- Project shows Execution time
 ## Cons:
 - Project does not include any type of test because of time constraint. Needless to say, testing is very important.
 - Project could have used the package `inquirer` to provide a much nicer command line interface.
